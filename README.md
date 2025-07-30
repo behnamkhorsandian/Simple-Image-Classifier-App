@@ -1,29 +1,29 @@
 
-[![Open in Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)](https://tokencounter.streamlit.app)
+[![Open in Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)](https://llm-image-classifier.streamlit.app)
 
-# Simple File Token Counter App
+# Simple Image Classifier App
 
-A simple Streamlit app to count tokens in documents using various LLM tokenization methods (OpenAI encodings).
+A simple Streamlit app that uses OpenAI and Instructor to classify images into categories: Dog, Cat, Bird, Fish, or Other.
 
 ## Features
-- Upload a document (PDF, EPUB, DOC, DOCX, TXT, Markdown)
-- Select from multiple OpenAI token encodings (cl100k_base, p50k_base, r50k_base, o200k_base)
-- See file size, character count, word count, and token count
+- Upload an image (JPG, JPEG, PNG)
+- AI-powered image classification using OpenAI's API
+- Clean, interactive UI with instant results
 
 ## Usage
 1. Install requirements:
-   ```bash
-   pip install -r requirements.txt
-   ```
+    ```bash
+    pip install -r requirements.txt
+    ```
 2. Run the app:
-   ```bash
-   streamlit run app.py
-   ```
-3. Open the app in your browser, upload a file, and view the token statistics.
+    ```bash
+    streamlit run app.py
+    ```
+3. Open the app in your browser, upload an image, and view the classification result.
 
 ## Notes
-- Only OpenAI encodings are directly supported.
-- Other LLM tokenizers (Claude, PaLM/Gemini, LLaMA/Mistral, Grok) are not yet available.
+- Requires an OpenAI API key (set in Streamlit secrets).
 
 ## License
 MIT
+
