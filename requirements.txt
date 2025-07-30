@@ -1,0 +1,7 @@
+streamlit
+pydantic
+pydantic-settings
+pydantic_core
+pandas
+instructor
+openai
