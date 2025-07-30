@@ -3,7 +3,7 @@
 
 # Simple Image Classifier App
 
-A simple Streamlit app that uses OpenAI and Instructor to classify images into categories: Dog, Cat, Bird, Fish, or Other.
+A simple Streamlit app that uses OpenAI and Instructor to classify images into categories defined by the user.
 
 ## Features
 - Upload an image (JPG, JPEG, PNG)
